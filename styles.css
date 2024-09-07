@@ -1,0 +1,100 @@
+
+h1 {
+    text-align: center;             /* Centraliza o texto horizontalmente */
+    background-color: #d3d3d3;      /* Cor de fundo cinza */
+    padding: 20px;                  /* Espaçamento interno do retângulo */
+    border-radius: 10px;            /* Bordas arredondadas */
+    width: 80%;                     /* Largura do retângulo (ajustável) */
+    margin: 20px auto;              /* Centraliza horizontalmente e adiciona espaçamento superior/inferior */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#rodape {
+    background-color: #d3d3d3; /* Cor de fundo cinza */
+    text-align: center;        /* Centraliza o texto horizontalmente */
+    padding: 10px;             /* Espaçamento interno */
+    margin-top: 20px;          /* Espaço acima do rodapé */
+    border-top: 1px solid #ccc; /* Linha de separação superior */
+    position: relative;        /* Posicionamento relativo */
+    bottom: 0;                 /* Posiciona o rodapé no fundo */
+    width: 100%;               /* Largura total da página */
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#rodape p {
+    margin: 0;                 /* Remove margens do parágrafo */
+}
+#dados {
+    margin: 20px; /* Adiciona espaçamento ao redor da div */
+}
+
+#dados h2 {
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+#dados p {
+    text-align: justify; /* Justifica o texto */
+    text-justify: inter-word; /* Melhora a justificativa em palavras */
+}
+#map {
+    margin: 20px 0; /* Espaçamento vertical */
+}
+
+#map h2 {
+    font-size: 1.5em; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.link {
+    display: block; /* Faz com que os links ocupem a largura total disponível */
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    margin-bottom: 10px; /* Espaçamento abaixo dos links */
+    font-weight: bold; /* Deixa o texto mais destacado */
+}
+
+.link:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+#estado-select {
+    margin: 20px 0; /* Espaçamento vertical */
+}
+
+#estado-select label {
+    margin-right: 10px; /* Espaçamento à direita do label */
+    font-weight: bold; /* Destaca o texto do label */
+}
+
+#estado {
+    padding: 5px; /* Espaçamento interno do select */
+    font-size: 1em; /* Tamanho da fonte */
+    margin-right: 10px; /* Espaçamento à direita do select */
+}
+
+#btnEstado {
+    padding: 5px 10px; /* Espaçamento interno do botão */
+    font-size: 1em; /* Tamanho da fonte */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas padrão do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse sobre o botão */
+}
+
+#btnEstado:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+#causas {
+    background-color: #d3d3d3; /* Fundo cinza */
+    padding: 20px;             /* Espaçamento interno */
+    border-radius: 10px;        /* Bordas arredondadas */
+    margin: 20px 0;             /* Espaçamento superior e inferior */
+}
+.telefone-emergencia {
+    background-color: #d3d3d3; /* Fundo cinza */
+    padding: 20px;             /* Espaçamento interno */
+    border-radius: 10px;        /* Bordas arredondadas */
+    margin: 20px 0;             /* Espaçamento superior e inferior */
+}
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrato das Queimadas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Retrato das Queimadas</h1>
+	<img src="img/1.jpg" alt="Imagem de queimadas" style="width:100%; height:auto;">
+	
+	<div id="dados">
+        <h2>Dados sobre as Queimadas</h2>
+        <p>Atualmente, o Brasil enfrenta um aumento significativo das queimadas em 2024, com 139 mil focos de incêndio já registrados, representando um aumento de 50% em relação ao ano anterior. A área total queimada entre janeiro e junho de 2024 foi de 4,48 milhões de hectares, com destaque para a Amazônia, que sozinha teve 2,97 milhões de hectares queimados, seguida pelo Cerrado e Pantanal. Este aumento nas queimadas está associado a fatores climáticos, como o fenômeno El Niño, que intensifica a seca e cria condições propícias para a propagação do fogo, especialmente nas regiões norte e oeste do país.
+
+        Além das condições climáticas, as queimadas são agravadas por práticas humanas, como desmatamento e uso de fogo para limpeza de áreas agrícolas. As regiões mais afetadas incluem Roraima, Pará e Mato Grosso do Sul, com Roraima sozinho respondendo por 44% do total das áreas queimadas no Brasil no primeiro semestre de 2024.</p>
+    </div>
+	
+	<div id="map">
+        <h2>Mapa das Queimadas</h2>
+        <iframe src="https://terrabrasilis.dpi.inpe.br/queimadas/bdqueimadas/" width="100%" height="600" style="border:none;">
+            Seu navegador não suporta iframes.
+        </iframe>
+	
+	  <div id="map">
+    <h2>O mundo em chamas</h2>
+<a href="https://terrabrasilis.dpi.inpe.br/queimadas/situacao-atual/estatisticas/estatisticas_paises/" target="_blank" class="link">Monitoramento dos Focos Ativos por Países</a>
+<p>Um olhar sobre a devastação dos biomas brasileiros.</p>
+<a href="https://terrabrasilis.dpi.inpe.br/app/dashboard/fires/biomes/aggregated/" target="_blank" class="link">Programa Biomas do INPE</a>
+
+</div>
+
+<div id="estado-select">
+    <label for="estado">Escolha um estado:</label>
+    <select id="estado">
+        <option value="">Selecione</option>
+        <option value="acre">Acre</option>
+        <option value="alagoas">Alagoas</option>
+        <option value="roraima">Roraima</option>
+		<option value="minas">Minas Gerais</option>
+		<option value="mato">Mato Grosso</option>
+		<option value="matosul">Mato Grosso Sul</option>
+		<option value="rio">Rio de Janeiro</option>
+		<option value="paulo">São Paulo</option>
+    </select>
+    <button id="btnEstado">Ver estatísticas</button>
+</div>
+	
+
+    <div id="causas" style="background-color: #d3d3d3; padding: 20px; border-radius: 10px; margin: 20px 0;">
+    <h2>Causas das Queimadas</h2>
+    <p>Análise das principais causas dos incêndios florestais no Brasil.</p>
+    <ul>
+        <li><strong>Desmatamento:</strong> A expansão da agricultura e pecuária resulta no desmatamento, onde o uso do fogo é comum para limpar terras.</li>
+        <li><strong>Mudanças Climáticas:</strong> O aumento das temperaturas globais e padrões de chuva alterados, intensificam as secas.</li>
+        <li><strong>Ações Humanas:</strong> Atividades ilegais como invasão de terras e queimadas criminosas também contribuem.</li>
+        <li><strong>Eventos Naturais:</strong> Raios e outros fenômenos podem iniciar incêndios em áreas secas.</li>
+    </ul>
+</div>
+
+	<button id="btnMaisInfo">Mostrar Mais Informações</button>
+<div id="maisInfo" style="display: none;">
+    <p><h3>Impactos Ambientais:</h3>
+            <ul>
+                <li><strong>Perda de Biodiversidade:</strong> As queimadas devastam ecossistemas, destruindo o habitat natural de inúmeras espécies de plantas e animais. Muitas vezes, espécies raras e endêmicas são as mais afetadas.</li>
+                <li><strong>Destruição de Florestas Primárias:</strong> Queimadas podem destruir florestas que levam décadas ou até séculos para se regenerar.</li>
+                <li><strong>Erosão do Solo:</strong> Após as queimadas, o solo fica desprotegido, perdendo sua capacidade de reter nutrientes e água, provocando erosão e degradação.</li>
+            </ul>
+
+            <h3>Impactos na Saúde Humana:</h3>
+            <ul>
+                <li><strong>Doenças Respiratórias:</strong> A fumaça resultante das queimadas aumenta a concentração de partículas finas no ar, agravando doenças respiratórias como asma e bronquite.</li>
+                <li><strong>Problemas Cardiovasculares:</strong> A poluição do ar pode aumentar o risco de doenças cardiovasculares, como hipertensão e ataques cardíacos.</li>
+            </ul>
+
+            <h3>Impactos Econômicos:</h3>
+            <ul>
+                <li><strong>Prejuízos à Agricultura:</strong> O fogo descontrolado destrói plantações e pastagens, resultando em prejuízos financeiros significativos para agricultores.</li>
+                <li><strong>Perda de Propriedades:</strong> Comunidades rurais frequentemente perdem casas e infraestrutura devido à propagação de incêndios florestais.</li>
+            </ul>
+
+            <h3>Impactos Climáticos:</h3>
+            <ul>
+                <li><strong>Emissão de Gases de Efeito Estufa:</strong> As queimadas liberam grandes quantidades de CO₂ e metano na atmosfera, contribuindo diretamente para o aquecimento global.</li>
+                <li><strong>Desestabilização do Ciclo Hidrológico:</strong> A destruição de florestas reduz a transpiração das plantas, interferindo no ciclo das chuvas.</li>
+            </ul>
+
+            <h3>Consequências Sociais:</h3>
+            <ul>
+                <li><strong>Deslocamento de Populações Indígenas:</strong> Queimadas forçadas afetam diretamente comunidades indígenas que dependem da floresta para sua subsistência.</li>
+                <li><strong>Conflitos Territoriais:</strong> O uso de fogo para limpar terras pode gerar conflitos entre agricultores e populações tradicionais.</li>
+            </ul>
+        `;</p>
+</div>
+	<p>Última atualização: <span id="ultimaAtualizacao"></span></p>
+	<div id="alertaEmergencia" style="display: none; background-color: red; color: white; padding: 10px;">
+    <p>Atenção! Queimadas estão se intensificando. Ligue para os números de emergência!</p>
+</div>
+
+   <div class="telefone-emergencia">
+    <h3>Telefone de Emergência</h3>
+    <ul>
+        <li>Corpo de Bombeiros - 193</li>
+        <li>Polícia Militar - 190</li>
+        <li>Disque Denúncia - 181</li>
+        <li>Defesa Civil - 199</li>
+    </ul>
+</div>
+
+
+    <h3>Links Úteis</h3>
+    <ul>
+        <li><a href="https://www.greenpeace.org/brasil/faca-uma-denuncia-ambiental/" target="_blank">Faça uma denúncia ambiental - Greenpeace</a></li>
+        <li><a href="https://terrabrasilis.dpi.inpe.br/queimadas/portal/" target="_blank">Terrabrasilis - INPE</a></li>
+        <li><a href="https://agenciabrasil.ebc.com.br/tags/queimadas" target="_blank">Queimadas - Agência Brasil</a></li>
+		<li><a href="https://terrabrasilis.dpi.inpe.br/app/dashboard/fires/biomes/aggregated/" target="_blank">Queimada - Focos nos Biomas</a></li>
+    </ul>
+
+    <!-- Referência ao script.js -->
+    <script src="script.js"></script>
+	<div id="rodape">
+    <p>2024 Direitos Reservados</p>
+</div>
+
+</body>
+</html>
